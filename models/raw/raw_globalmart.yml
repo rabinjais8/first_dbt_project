@@ -22,6 +22,11 @@ models:
                 - "Same Day"
                 - "Second Class"
                 - "Standard Class"
+  - name: raw_productv1
+    columns:
+      - name: status
+        tests:
+          - custom_not_null
 
 
         
